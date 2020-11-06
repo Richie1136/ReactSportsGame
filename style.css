@@ -1,0 +1,38 @@
+h1#venueName {
+  color: purple;
+  text-align: center;
+}
+.Duke {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: blue;
+  position: absolute;
+  height: 200px;
+  top: 100px;
+  right: 150px;
+}
+
+.Lakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  position: absolute;
+  height: 200px;
+  top: 100px;
+}
+
+#vsDiv {
+  font-size: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+
+button {
+  width: 100px;
+  height: 20px;
+}
