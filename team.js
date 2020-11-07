@@ -44,7 +44,7 @@ shotPercentage = () => {
 return (
   <React.Fragment>
   <div className = {this.props.className}>
-    {/* <h1>{this.props.name} </h1> */}
+    <h1>{this.props.name} </h1>
     <img src = {this.props.logo} width= "300px" />
     <p>Shots: {this.state.shotsTaken}</p>
     <p>Score: {this.state.score}</p>
@@ -56,4 +56,4 @@ return (
   }
 }
 
-
+  
