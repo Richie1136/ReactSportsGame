@@ -8,9 +8,9 @@ class Game extends React.Component {
       return (
       <React.Fragment>
         <h1 id = "venueName">Welcome to {this.props.venue}</h1>
-        {/* <Team  /> */}
+        {/* <div className={this.props.className}></div> */}
+       {/* <Team name={this.props.name} img ={this.props.logo} width="300px" /> */}
         <div id="vsDiv">VS</div>
-        {/* <Team name={this.props.name} logo={this.props.logo} /> */}
   
       </React.Fragment>
       )
